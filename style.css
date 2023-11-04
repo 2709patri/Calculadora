@@ -1,6 +1,7 @@
 body {
 margin-top: 0;
-padding: 20;
+padding: 20px;
+
 }
 
 h1 {
@@ -11,40 +12,38 @@ h1 {
     color: rgb(120, 186, 243);
 }
 .calculadora {
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
     text-align: center;
     padding: 50px;
-    background-color: rgb(211, 211, 248);
+    background-color: rgb(31, 102, 243);
     border-radius: 5%;
+    lighting-color: rgb(33, 75, 216);
+    border-color: rgb(151, 151, 221);
 
  }
 button, input {
 border-radius: 5%;
-background-color: lightpink ;
-width: 50px;
+background-color: rgba(192, 207, 248, 0.966) ;
+width: 70px;
 height: 50px;
 font-size: 20px;
 margin: 5px;
+lighting-color: blanchedalmond;
 
 }
-#operador1 {
+#operador1, #operador2 {
     border-radius: 5%;
     width: 164px;
     padding: 10px;
-    background-color: rgba(255, 182, 193, 0) ;
+    background-color: rgba(192, 204, 240, 0.938) ;
 
 }
-#operador2 {
-    border-radius: 5%;
-    width: 164px;
-    padding: 10px;
-    background-color: rgba(255, 182, 193, 0) ;
-}
+
 #resultado {
     border-radius: 5%;
     width: 164px;
     padding: 10px;
-    background-color: rgba(255, 182, 193, 0) ;
+    background-color: rgba(192, 204, 240, 0.938) ;
 }
 
